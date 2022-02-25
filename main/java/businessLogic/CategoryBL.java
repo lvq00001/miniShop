@@ -11,8 +11,6 @@ import javaBean.Category;
 
 public class CategoryBL {
 	
-	//Thi sinh viet them cac lenh vao day de thuc hien yeu cau
-	//???
 	public static List<Category> docTatCa() {
 		List<Category> dspl = new ArrayList<>();
 		Connection con = CSDL.getKetNoi();
