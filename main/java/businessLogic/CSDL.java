@@ -9,8 +9,6 @@ import java.sql.SQLException;
 
 public class CSDL {
 	
-	//Thi sinh viet them cac lenh vao day de thuc hien yeu cau
-	//???
 	private static Connection ketNoi;
 	public static Connection getKetNoi() {
 		String url = "jdbc:mysql://localhost:3306/minishop248";
