@@ -12,8 +12,6 @@ import javaBean.Product;
 
 public class ProductBL {
 	
-	//Thi sinh viet them cac lenh vao day de thuc hien yeu cau
-	//???
 	public static List<Product> docTatCa() {
 		List<Product> dssp = new ArrayList<>();
 		Connection con = CSDL.getKetNoi();
