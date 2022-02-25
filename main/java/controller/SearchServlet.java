@@ -35,9 +35,6 @@ public class SearchServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String q = request.getParameter("q");
-		
-		//Thi sinh viet them cac lenh vao day de thuc hien yeu cau
-		//???
 		List<Product> dsspTheoTitle = ProductBL.docTheoTitle(q);
 		List<Category> dspl = CategoryBL.docTatCa();
 		
