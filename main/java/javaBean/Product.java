@@ -4,27 +4,23 @@ import java.io.Serializable;
 
 public class Product implements Serializable {
 	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
-	//Thi sinh viet them cac lenh vao day de thuc hien yeu cau
-	//???
-	int ProductId;
-	int CategoryId;
-	int PublisherId;
-	int AuthorId;
-	String isbn;
 	
-	String title;
-	int Pages;
-	int Year;
-	String Weight;
-	String Size;
-	String Description;
-	String Content;
-	String ImageUrl;
-	int Price;
+	private int ProductId;
+	private int CategoryId;
+	private int PublisherId;
+	private int AuthorId;
+	private String isbn;
+	private String title;
+	private int Pages;
+	private int Year;
+	private String Weight;
+	private String Size;
+	private String Description;
+	private String Content;
+	private String ImageUrl;
+	private int Price;
+	
 	public int getProductId() {
 		return ProductId;
 	}
