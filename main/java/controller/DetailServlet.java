@@ -35,9 +35,6 @@ public class DetailServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		int productId = Integer.parseInt(request.getParameter("productId"));
-		
-		//Thi sinh viet them cac lenh vao day de thuc hien yeu cau
-		//???
 		Product p = ProductBL.docTheoProductId(productId);
 		List<Category> dspl = CategoryBL.docTatCa();
 		
