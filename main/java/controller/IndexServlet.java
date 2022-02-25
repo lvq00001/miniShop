@@ -36,9 +36,6 @@ public class IndexServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		//Thi sinh viet them cac lenh vao day de thuc hien yeu cau
-		//???
-		
 		List<Product> dssp = ProductBL.docTatCa();
 		request.setAttribute("dssp", dssp);
 		
