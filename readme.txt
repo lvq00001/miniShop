@@ -1,1 +1,1 @@
-minishop using MVC pattern, MySQL database and JSTL
+minishop using MVC pattern, MySQL database and JSP view
